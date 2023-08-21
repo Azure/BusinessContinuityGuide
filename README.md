@@ -1,5 +1,10 @@
 # Introducing the Azure Business Continuity Guide
 
+> [!IMPORTANT]
+> It is recommended to open the ABCG Excel Workbook in Desktop View for the best experience!
+
+**Download Latest Release:** [Azure Business Continuity Guide v0.5](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx)
+
 ## What is the Azure Business Continuity Guide (ABCG)?
 
 The Azure Business Continuity Guide provides a comprehensive set of recommendations to help customers define what BCDR looks like for their applications. Often a customer will ask us for help with their business continuity and disaster recovery plans. Sometimes, the customer simply needs a structured approach to protect one application in Microsoft Azure. In other cases, they have a portfolio of many applications in a hybrid environment that might never have had a good solution to protect everything with a single BCDR framework. In addition, Microsoft Azure offers a variety of services and features to help customers achieve high availability, disaster recovery, and backup for their applications and data. However, planning and implementing a solid strategy can be challenging, especially for complex environments.
@@ -49,9 +54,6 @@ For the final phase of the ABCG, we focus on multi-application continuity planni
 ## Get Started with the ABCG
 
 The Azure Business Continuity Guide is a living document which we think our customers will value. Over time we plan to improve upon it based on your feedback. Please download a copy of the ABCG and let us know what you find useful what might make it even better for others!
-
-
-**Download Latest Release:** [Azure Business Continuity Guide v0.5](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx)
 
 ## Contributing
 
