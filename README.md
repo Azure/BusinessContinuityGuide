@@ -8,7 +8,7 @@ That's why we created the Azure Business Continuity Guide. Today, we are pleased
 
 ## What's included in the Azure Business Continuity Guide?
 
-The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an Excel workbook file on GitHub (link pending), which you can download and customize for your own needs. The ABCG contains a few different elements:
+The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx), which you can download and customize for your own needs. The ABCG contains a few different elements:
 
 - Select documentation covering the important concepts of BCDR on Microsoft Azure
 - Recommended templates to help define your BCDR requirements in a consistent way
@@ -20,7 +20,7 @@ The workbook is divided into 5 distinct phases across the BCDR journey, from rea
 
 In this phase we review fundamental concepts to answer the question, "What is the Microsoft Azure BCDR Solution?" This includes documentation on platform features, the shared responsibility model, design patterns and reliability trade-offs (ex. cost) just to name a few of the concepts. We also provide a set of templates that compose a structured methodology for assessing the business continuity of existing applications and facilitating the design of new ones. This approach can improve the overall adoption of BCDR and lead to more consistent planning.
 
-![](RackMultipart20230821-1-irmft7_html_8c85e47d1c27584c.png)
+![Phase 1 - Criticality Definitions](media/Phase1-Criticality-Definitions.png)
 
 ## Phase 2: Assess
 
@@ -30,7 +30,7 @@ From this point we have an iterative set of activities that should be followed f
 
 In this phase we develop our response plan for the application that describes the types of events, their scope of impact and the appropriate response (and preparation) that should take place. For example, if a disaster impacts a single Availability Zone within a region we define the automated and/or manual failover activities that need to occur to recover.
 
-![](RackMultipart20230821-1-irmft7_html_1a971a3471e988ec.png)
+![Phase 3 - Impact Scope](media/Phase3-Impact-Scope.png)
 
 Next, we recommend documenting the architectural considerations for each service or component that affects the application's resiliency. This can be defined as a list of requirements with details on how the components meet requirements (i.e. use of availability zones or paired regions). The result is a robust document describing how the application should be implemented to meet the resiliency requirements. Any gaps or unmet requirements should be included so that your contingency planning can account for these items as needed.
 
@@ -44,11 +44,14 @@ Without regular testing, even the most robust plan can fail when it's needed mos
 
 For the final phase of the ABCG, we focus on multi-application continuity planning. Your organization should define the risks that are most likely to impact the business (i.e. natural disasters, cyberattacks, power outages, etc). We provide an example list of considerations to include from people and processes to validation and testing. The details from your risk assessment (and the outcomes of all the other activities up to this point) should help define the recovery order of your application portfolio. You should also identify any business critical events for your organization to ensure that BCDR testing does not cause disruption during these times.
 
-![](RackMultipart20230821-1-irmft7_html_d5e0bd615860415b.png)
+![Phase 5 - Application Recovery Order](media/Phase5-AppRecoveryOrder.png)
 
 ## Get Started with the ABCG
 
 The Azure Business Continuity Guide is a living document which we think our customers will value. Over time we plan to improve upon it based on your feedback. Please download a copy of the ABCG and let us know what you find useful what might make it even better for others!
+
+
+**Download Latest Release:** [Azure Business Continuity Guide v0.5](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx)
 
 ## Contributing
 
