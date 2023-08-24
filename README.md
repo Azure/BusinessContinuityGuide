@@ -19,41 +19,45 @@ The ABCG is a comprehensive and practical resource that helps you design and exe
 - Recommended templates to help define your BCDR requirements in a consistent way
 - Example assessments, plans and checklists for customers to consider in their own BCDR implementation
 
-The workbook is divided into 5 distinct phases across the BCDR journey, from readiness to application continuity all the way through business continuity.
+The workbook is divided into 3 distinct phases across the BCDR journey, from readiness to application continuity all the way through business continuity.
 
-## Phase 1: Prepare for BCDR
+## Phase 1: Prepare
 
 In this phase we review fundamental concepts to answer the question, "What is the Microsoft Azure BCDR Solution?" This includes documentation on platform features, the shared responsibility model, design patterns and reliability trade-offs (ex. cost) just to name a few of the concepts. We also provide a set of templates that compose a structured methodology for assessing the business continuity of existing applications and facilitating the design of new ones. This approach can improve the overall adoption of BCDR and lead to more consistent planning.
 
 ![Phase 1 - Criticality Definitions](media/Phase1-Criticality-Definitions.png)
 
-## Phase 2: Assess
+## Phase 2: Application Continuity
 
-From this point we have an iterative set of activities that should be followed for each independent application that needs a continuity plan. Starting with an assessment of the application to determine the requirements and architectural decisions. This should be guided by the business case for each application, which includes data from business impact assessments, service mapping and fault tree analysis among other included examples. Once you have validated your requirements in this way, any gaps in the implementation or design can be addressed in the next phase.
+From this point we have an iterative set of activities that should be followed for each independent application that needs a continuity plan.
 
-## Phase 3: Implement
+### Assess
 
-In this phase we develop our response plan for the application that describes the types of events, their scope of impact and the appropriate response (and preparation) that should take place. For example, if a disaster impacts a single Availability Zone within a region we define the automated and/or manual failover activities that need to occur to recover.
+Starting with an assessment of the application to determine the requirements and architectural decisions. This should be guided by the business case for each application, which includes data from business impact assessments, service mapping and fault tree analysis among other included examples. Once you have validated your requirements in this way, any gaps in the implementation or design can be addressed during the implement activity.
+
+### Implement
+
+In this activity we develop our response plan for the application that describes the types of events, their scope of impact and the appropriate response (and preparation) that should take place. For example, if a disaster impacts a single Availability Zone within a region we define the automated and/or manual failover activities that need to occur to recover.
 
 ![Phase 3 - Impact Scope](media/Phase3-Impact-Scope.png)
 
 Next, we recommend documenting the architectural considerations for each service or component that affects the application's resiliency. This can be defined as a list of requirements with details on how the components meet requirements (i.e. use of availability zones or paired regions). The result is a robust document describing how the application should be implemented to meet the resiliency requirements. Any gaps or unmet requirements should be included so that your contingency planning can account for these items as needed.
 
-Before moving to the next phase, we recommend customers assign roles and responsibilities to the recovery team that will be involved in the BCDR testing. A RACI template is included to help you consistently plan your teams across all applications.
+Before moving to the next activity, we recommend customers assign roles and responsibilities to the recovery team that will be involved in the BCDR testing. A RACI template is included to help you consistently plan your teams across all applications.
 
-## Phase 4: Test
+### Test
 
 Without regular testing, even the most robust plan can fail when it's needed most. Testing activities should include a failover plan, recovery plan, acceptance testing, outage communications and a regular review (and update) of all documents that support your application continuity plan. A test summary example is included in the ABCG to help track testing activities and results over time. Don't forget to include appropriate communication plans during tests as well. As you review your testing outcomes, look for ways to improve your plans to reduce costs, recovery times and efficiency.
 
-## Phase 5: Business Continuity Planning
+## Phase 3: Business Continuity
 
-For the final phase of the ABCG, we focus on multi-application continuity planning. Your organization should define the risks that are most likely to impact the business (i.e. natural disasters, cyberattacks, power outages, etc). We provide an example list of considerations to include from people and processes to validation and testing. The details from your risk assessment (and the outcomes of all the other activities up to this point) should help define the recovery order of your application portfolio. You should also identify any business critical events for your organization to ensure that BCDR testing does not cause disruption during these times.
+For the final phase of the ABCG, we focus on minimum business continuity objective (MBCO) planning and ongoing management. This involves combining and coordinating the individual application continuity plans for all critical applications.  Your organization should define the risks that are most likely to impact the business (i.e. natural disasters, cyberattacks, power outages, etc). We provide an example list of considerations to include from people and processes to validation and testing. The details from your risk assessment (and the outcomes of all the other activities up to this point) should help define the recovery order of your application portfolio. You should also identify any business critical events for your organization to ensure that BCDR testing does not cause disruption during these times.
 
 ![Phase 5 - Application Recovery Order](media/Phase5-AppRecoveryOrder.png)
 
 ## Get Started with the ABCG
 
-The Azure Business Continuity Guide is a living document which we think our customers will value. Over time we plan to improve upon it based on your feedback. Please download a copy of the ABCG and let us know what you find useful what might make it even better for others!
+The Azure Business Continuity Guide is a living document which we think our customers will value. Over time we plan to improve upon it based on your feedback. Please download a copy of the ABCG and let us know what you find useful, and what might make it even better for others!
 
 ## Contributing
 
