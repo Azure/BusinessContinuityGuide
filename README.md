@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > It is recommended to open the ABCG Excel Workbook in Desktop View for the best experience!
 
-**Download Latest Release:** [Azure Business Continuity Guide v0.5](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx)
+**Download Latest Release:** [Azure Business Continuity Guide v0.51](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.51/ABCG.v0.51.xlsx)
 
 ## What is the Azure Business Continuity Guide (ABCG)?
 
@@ -13,7 +13,7 @@ That's why we created the Azure Business Continuity Guide. Today, we are pleased
 
 ## What's included in the Azure Business Continuity Guide?
 
-The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.5/ABCG.v0.5.xlsx), which you can download and customize for your own needs. The ABCG contains a few different elements:
+The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.51/ABCG.v0.51.xlsx), which you can download and customize for your own needs. The ABCG contains a few different elements:
 
 - Select documentation covering the important concepts of BCDR on Microsoft Azure
 - Recommended templates to help define your BCDR requirements in a consistent way
@@ -25,7 +25,7 @@ The workbook is divided into 3 distinct phases across the BCDR journey, from rea
 
 In this phase we review fundamental concepts to answer the question, "What is the Microsoft Azure BCDR Solution?" This includes documentation on platform features, the shared responsibility model, design patterns and reliability trade-offs (ex. cost) just to name a few of the concepts. We also provide a set of templates that compose a structured methodology for assessing the business continuity of existing applications and facilitating the design of new ones. This approach can improve the overall adoption of BCDR and lead to more consistent planning.
 
-![Phase 1 - Criticality Definitions](media/Phase1-Criticality-Definitions.png)
+![Phase 1 - Criticality Definitions](media/Prepare-Criticality_Definitions.png)
 
 ## Phase 2: Application Continuity
 
@@ -39,7 +39,7 @@ Starting with an assessment of the application to determine the requirements and
 
 In this activity we develop our response plan for the application that describes the types of events, their scope of impact and the appropriate response (and preparation) that should take place. For example, if a disaster impacts a single Availability Zone within a region we define the automated and/or manual failover activities that need to occur to recover.
 
-![Phase 3 - Impact Scope](media/Phase3-Impact-Scope.png)
+![Phase 3 - Impact Scope](media/Implement-Impact_Scope.png)
 
 Next, we recommend documenting the architectural considerations for each service or component that affects the application's resiliency. This can be defined as a list of requirements with details on how the components meet requirements (i.e. use of availability zones or paired regions). The result is a robust document describing how the application should be implemented to meet the resiliency requirements. Any gaps or unmet requirements should be included so that your contingency planning can account for these items as needed.
 
@@ -53,7 +53,7 @@ Without regular testing, even the most robust plan can fail when it's needed mos
 
 For the final phase of the ABCG, we focus on minimum business continuity objective (MBCO) planning and ongoing management. This involves combining and coordinating the individual application continuity plans for all critical applications.  Your organization should define the risks that are most likely to impact the business (i.e. natural disasters, cyberattacks, power outages, etc). We provide an example list of considerations to include from people and processes to validation and testing. The details from your risk assessment (and the outcomes of all the other activities up to this point) should help define the recovery order of your application portfolio. You should also identify any business critical events for your organization to ensure that BCDR testing does not cause disruption during these times.
 
-![Phase 5 - Application Recovery Order](media/Phase5-AppRecoveryOrder.png)
+![Phase 5 - Application Recovery Order](media/Business_Continuity-Minimum_Business_Continuity_Objective.png)
 
 ## Get Started with the ABCG
 
