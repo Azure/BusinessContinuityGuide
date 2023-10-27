@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > It is recommended to open the ABCG Excel Workbook in Desktop View for the best experience!
 
-**Download Latest Release:** [Azure Business Continuity Guide v0.53](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.53/ABCG.v0.53.xlsx)
+**Download Latest Release:** [Azure Business Continuity Guide v0.54](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.54/ABCG.v0.54.xlsx)
 
 ## What is the Azure Business Continuity Guide (ABCG)?
 
