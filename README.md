@@ -13,7 +13,7 @@ That's why we created the Azure Business Continuity Guide. Today, we are pleased
 
 ## What's included in the Azure Business Continuity Guide?
 
-The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.53/ABCG.v0.53.xlsx), which you can download and customize for your own needs. The ABCG contains a few different elements:
+The ABCG is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABCG is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.54/ABCG.v0.54.xlsx), which you can download and customize for your own needs. The ABCG contains a few different elements:
 
 - Select documentation covering the important concepts of BCDR on Microsoft Azure
 - Recommended templates to help define your BCDR requirements in a consistent way
