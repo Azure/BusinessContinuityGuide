@@ -34,6 +34,10 @@ Some of the pages in the guide have built-in filters you can leverage by simply 
 ![Category Filter Off](media/category-filter-off.png)<br>
 (Show only items in the General category)
 
+## Footnotes
+
+Many of the templates and examples will include a list of footnotes at the bottom of the worksheets. When first viewing the guide it is a good idea to check the footnotes and become familiar with the details. It will help you understand the templates better.
+
 ---
 
 ## Other tips
