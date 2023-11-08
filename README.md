@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > It is recommended to open the ABC Guide Excel Workbook in Desktop View for the best experience!
 
-**Download Latest Release:** [Azure Business Continuity Guide v0.54](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.54/ABCG.v0.54.xlsx)
+**Download Latest Release:** [Azure Business Continuity Guide v0.55](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.55/ABCG.v0.55.xlsx)
 
 📢 *For a brief overview of how the ABC Guide is structured and how to navigate the content, please see the **[Getting Started](getting-started.md)** page.*
 
@@ -15,7 +15,7 @@ That's why we created the Azure Business Continuity Guide. This guide available 
 
 ## What's included in the Azure Business Continuity Guide?
 
-The ABC Guide is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABC Guide is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.54/ABCG.v0.54.xlsx), which you can download and customize for your own needs. The ABC Guide contains a few different elements:
+The ABC Guide is a comprehensive and practical resource that helps you design and execute a BCDR plan for your Azure resources. The ABC Guide is published as an [Excel workbook](https://github.com/Azure/BusinessContinuityGuide/releases/download/v0.55/ABCG.v0.55.xlsx), which you can download and customize for your own needs. The ABC Guide contains a few different elements:
 
 - Select documentation covering the important concepts of BCDR on Microsoft Azure
 - Recommended templates to help define your BCDR requirements in a consistent way
