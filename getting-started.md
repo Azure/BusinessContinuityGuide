@@ -178,7 +178,8 @@ The RACI table is a project management tool used to clarify roles and responsibi
 A workshop (or series of workshops) with all relevant stakeholders is recommended to gather relevant information for each application. 
 
 In the template you’ll find a list of requirements grouped by category. You can click on one of the categories listed to automatically filter the requirements listed in the table. You can use this template to assess each application's BCDR requirements for a new or existing system. The responses can then be used in the other templates in this guide.
-You will find an example of how this template can be used later in Phase 2: Application Continuity (refer to the first link in the ASSESS group).
+
+You will find an example of how this template can be used later in [Phase 2: Application Continuity](#requirements-and-architecture-decision-record).
 
 #### Test Plans (template)
 
@@ -301,7 +302,7 @@ Disaster Event:
 | - Global<br>- Azure Geography<br>- Azure Region<br>- Azure Zone<br>- Azure Service Impact | natural disaster, internet, power grid, service failures, etc |
 | - Data integrity issue | human error, transfer errors, bugs and viruses, data corruption, etc |
 
-Refer to the Business Risk example in Phase 3: Business Continuity for more information and related types of disasters that may lead to the defined event scopes.
+Refer to the [Business Risk](#business-risk) example in Phase 3: Business Continuity for more information and related types of disasters that may lead to the defined event scopes.
 
 #### Architecture | Continuity Design (+BCDR)
 
