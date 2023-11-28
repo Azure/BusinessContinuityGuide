@@ -29,6 +29,8 @@ In this phase we review fundamental concepts to answer the question, "What is th
 
 ![Phase 1 - Criticality Definitions](media/Prepare-Criticality_Definitions.png)
 
+*For more information on this phase, head over to [Getting Started - Phase 1: Prepare](getting-started.md#phase-1-prepare)*
+
 ## Phase 2: Application Continuity
 
 From this point we have an iterative set of activities that should be followed for each independent application that needs a continuity plan.
@@ -41,7 +43,7 @@ Starting with an assessment of the application to determine the requirements and
 
 In this activity we develop our response plan for the application that describes the types of events, their scope of impact and the appropriate response (and preparation) that should take place. For example, if a disaster impacts a single Availability Zone within a region we define the automated and/or manual failover activities that need to occur to recover.
 
-![Phase 3 - Impact Scope](media/Implement-Impact_Scope.png)
+![Phase 2 - Impact Scope](media/Implement-Impact_Scope.png)
 
 Next, we recommend documenting the architectural considerations for each service or component that affects the application's resiliency. This can be defined as a list of requirements with details on how the components meet requirements (i.e. use of availability zones or paired regions). The result is a robust document describing how the application should be implemented to meet the resiliency requirements. Any gaps or unmet requirements should be included so that your contingency planning can account for these items as needed.
 
@@ -51,11 +53,15 @@ Before moving to the next activity, we recommend customers assign roles and resp
 
 Without regular testing, even the most robust plan can fail when it's needed most. Testing activities should include a failover plan, recovery plan, acceptance testing, outage communications and a regular review (and update) of all documents that support your application continuity plan. A test summary example is included in the ABC Guide to help track testing activities and results over time. Don't forget to include appropriate communication plans during tests as well. As you review your testing outcomes, look for ways to improve your plans to reduce costs, recovery times and efficiency.
 
+*For more information on this phase, head over to [Getting Started - Phase 2: Application Continuity](getting-started.md#phase-2-application-continuity)*
+
 ## Phase 3: Business Continuity
 
 For the final phase of the ABC Guide, we focus on minimum business continuity objective (MBCO) planning and ongoing management. This involves combining and coordinating the individual application continuity plans for all critical applications.  Your organization should define the risks that are most likely to impact the business (i.e. natural disasters, cyberattacks, power outages, etc). We provide an example list of considerations to include from people and processes to validation and testing. The details from your risk assessment (and the outcomes of all the other activities up to this point) should help define the recovery order of your application portfolio. You should also identify any business critical events for your organization to ensure that BCDR testing does not cause disruption during these times.
 
-![Phase 5 - Application Recovery Order](media/Business_Continuity-Minimum_Business_Continuity_Objective.png)
+![Phase 3 - Application Recovery Order](media/Business_Continuity-Minimum_Business_Continuity_Objective.png)
+
+*For more information on this phase, head over to [Getting Started - Phase 3: Business Continuity](getting-started.md#phase-3-business-continuity)*
 
 ## Get Started with the ABC Guide
 
