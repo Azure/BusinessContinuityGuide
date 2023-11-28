@@ -372,3 +372,59 @@ For each application consider:
 - Owner of the review process
 - Approver of the completed review
 
+## Phase 3: Business Continuity
+
+### Business Continuity Plan
+
+A BCP is a document that outlines how a business will continue its operations in the event of an unplanned disruption to its business-critical applications. Building a Business Continuity Plan (BCP) document is a critical process for ensuring an organization's ability to maintain essential business functions in the face of disruptions or disasters.
+
+Industry-standard and jurisdiction-specific BCP templates are available on the internet. Consider the items listed in the ABC Guide when developing a Business Continuity Plan.
+
+In this document you’ll find all the important considerations to take into account and a link to the documents (included in the ABC Guide) that are meaningful to implement a good BCP.
+
+#### Business Risk
+
+The organization should define risks that are most likely to impact the business. Risk is based on the hazard being assessed and the organization's exposure to the risk.
+
+Risk associated with an incident can be defined as “the impact of that incident multiplied by the probability of the incident happening”.
+
+An example of **High Risk** (High Probability and High Impact) is data breach. Given the increasing number of cyber attacks, the probability of a data breach is relatively high. If an attacker gains unauthorized access to your application, they could potentially access sensitive data, modify your application’s behavior, or even cause downtime. The impact of such an event is also high, as it could lead to significant financial losses, damage to your company’s reputation, and loss of customer trust.
+
+An example of **Low Risk** (Low Probability but High Impact) could be a major natural disaster such as an earthquake or a flood affecting the physical location of Azure data centers. While Azure has multiple data centers around the world to ensure redundancy and minimize the impact of such events, the possibility still exists. The probability of this happening is extremely low, but if it were to occur, the impact could be huge, potentially causing significant downtime. However, Azure’s extensive disaster recovery and backup strategies would likely mitigate this risk.
+
+![Business Risk](media/business-risk-calculation.png)
+
+#### Minimum Business Continuity Objective (MBCO)
+
+This document outlines how a business will continue its operations in the event of an unplanned disruption to its business-critical applications. The business is recommended to determine the Minimum Business Continuity Objective (MBCO). This represents the minimum number of applications and/or business functions that need to be available or made available before the maximum tolerable downtime (MTD) is reached in order for the business to achieve its objectives during a disruption.
+
+It’s important to note that a recovery order needs to be defined in order to respect dependencies and define the responsible recovery teams that might be involved. Applications with the same recovery order can be recovered at the same time.
+
+#### Business Critical Function Calendar
+
+A Business Critical Function Calendar lists all critical business events for the organization. These are business activities and processes that must be restored in the event of a disruption to ensure the ability to protect the organization’s assets, meet organizational needs, and satisfy regulations. Critical dates must be considered when scheduling BCDR drills.
+
+You can consider adding Azure Planned Maintenance events to this calendar. Azure offers a suite of experiences to keep you informed about the health of your cloud resources. This information includes current and upcoming issues such as service impacting events, planned maintenance, and other changes that may affect your availability.
+
+Although you see the calendar in an excel format (as this made it easier to include the example in the guide), please consider evaluating the use of a calendar tool.
+
+#### Business Impact Analysis | Portfolio Summary
+
+This page represents a summary of the Business Impact Analysis for all the applications in the portfolio. It’s a good way to have a quick overview of the criticality of the applications and the related business impact. In the provided example, it is a static view of the data that was collected in the [Business Impact Analysis](#business-impact-analysis) template.
+
+#### Business Continuity and Disaster Recovery | Dashboard
+
+The Business Continuity and Disaster Recovery dashboard captures all relevant application architecture, requirements, processes, plans, policies, test schedules, metrics, current and historical status to help you recover or remain operational in the case of a disaster.
+
+In the provided example, the content of the dashboard is not automatically updated. In a real scenario, you should consider using a tool that can automatically pull data from the different sources and provide a dynamic view of the data.
+
+#### Maintain Business Continuity
+
+An example of the maintenance plan for business continuity. All documents that should be regularly reviewed and updated are listed.
+
+For the business, consider:
+
+1. The documents, activities or automation artifacts that need to be reviewed on a regular basis.
+2. The frequency of review.
+3. The owner of the review process.
+4. The approver of the completed review.
