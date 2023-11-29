@@ -92,6 +92,12 @@ For each Criticality Level, define if a specific aspect needs to be calculated o
 
 ![Business Commitment Requirements Legend](media/business-commitment-requirements.png)
 
+When filling out the template, you can use the following cell values to indicate Required, Not Required or As Required:
+
+✅(Required) = 1<br>
+❌(Not Required) = 2<br>
+➖(As Required) = 3
+
 🔍**ATTENTION:**
 The Business Commitment Model template contains several vertical sections that are hidden by default. Be sure to expand the sections to see the full list of requirements. When all the sections are collapsed you can see the condensed topics in a "page size" view and the tables might look empty (as seen below).
 
