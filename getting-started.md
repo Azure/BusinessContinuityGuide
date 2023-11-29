@@ -22,7 +22,7 @@ In each page of the guide, you will find quick access navigation buttons at the 
 
 ### Collapsible Sections
 
-Many of the pages include sections that have been collapsed or expanded by default. Look for the **[+]** and **[-]** buttons to expand or collapse sections.
+Many of the pages include vertical sections (rows) or horizontal sections (columns) that have been collapsed or expanded by default. Look for the **[+]** and **[-]** buttons to expand or collapse sections.
 
 ![Collapse Button](media/collapse-button.png)Collapse this section
 
