@@ -383,7 +383,7 @@ For each application consider:
 
 ### Business Continuity Plan
 
-A BCP is a document that outlines how a business will continue its operations in the event of an unplanned disruption to its business-critical applications. Building a Business Continuity Plan (BCP) document is a critical process for ensuring an organization's ability to maintain essential business functions in the face of disruptions or disasters.
+A Business Continuity Plan (BCP) is a document that outlines how a business will continue its operations in the event of an unplanned disruption to its business-critical applications. Building a BCP document is a critical process for ensuring an organization's ability to maintain essential business functions in the face of disruptions or disasters.
 
 Industry-standard and jurisdiction-specific BCP templates are available on the internet. Consider the items listed in the ABC Guide when developing a Business Continuity Plan.
 
